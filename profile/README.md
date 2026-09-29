@@ -43,6 +43,20 @@ Service nodes <--- Storage P2P ---> Models / Memory / Artifacts
 | [niahcia-web](https://github.com/niahcia/niahcia-web) | Official main user application |
 | [niahcia.github.io](https://github.com/niahcia/niahcia.github.io) | Static GitHub Pages project/development site |
 
+## Current Releases
+
+| Component | Latest release |
+|---|---|
+| NIAHCIA Node / Core | [Latest release](https://github.com/niahcia/niahcia/releases/latest) |
+| NIAHCIA Miner | [Latest release](https://github.com/niahcia/niahcia-miner/releases/latest) |
+| NIAHCIA Compute | [Latest release](https://github.com/niahcia/niahcia-compute/releases/latest) |
+| NIAHCIA Explorer | [Latest release](https://github.com/niahcia/niahcia-explorer/releases/latest) |
+| NIAHCIA Web | [Latest release](https://github.com/niahcia/niahcia-web/releases/latest) |
+| NIAHCIA Protocol | [Releases / milestones](https://github.com/niahcia/niahcia-protocol/releases) |
+| NIAHCIA GitHub Pages | [Releases](https://github.com/niahcia/niahcia.github.io/releases) |
+
+> NIAHCIA is still in early development. Repositories without a published release may show no latest release until their first tagged version is created.
+
 ## Design doctrine
 
 - **The blockchain is sovereign.** AI or service layers may fail without stopping consensus.
