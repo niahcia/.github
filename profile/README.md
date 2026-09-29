@@ -4,25 +4,38 @@
 
 A permissionless blockchain and decentralized AI-agent network.
 
-## Download & Deploy
+# Download NIAHCIA
 
-**Start here:** [NIAHCIA Releases & Downloads](https://niahcia.github.io/releases.html)
+## ➜ [Download the latest NIAHCIA release](https://github.com/niahcia/niahcia/releases/latest)
 
-The releases page is the operator-facing entry point for downloading the current NIAHCIA software and deployment packages.
+This is the **single download path** for normal users and operators.
 
-### Core downloads
+The main `niahcia` release will be the distribution point for the complete NIAHCIA software set.
 
-| Component | Use | Latest release |
-|---|---|---|
-| NIAHCIA Node / Core | Run a full node and EVM RPC | [Download](https://github.com/niahcia/niahcia/releases/latest) |
-| NIAHCIA Miner | CPU mining | [Download](https://github.com/niahcia/niahcia-miner/releases/latest) |
-| NIAHCIA Compute | AI compute worker | [Download](https://github.com/niahcia/niahcia-compute/releases/latest) |
-| NIAHCIA Explorer | Run an explorer | [Download](https://github.com/niahcia/niahcia-explorer/releases/latest) |
-| NIAHCIA Web | Run the official web client | [Download](https://github.com/niahcia/niahcia-web/releases/latest) |
+Expected release assets:
 
-> NIAHCIA is still pre-alpha. Repositories without a published release will show no downloadable release until the first tagged build is published.
+```text
+niahcia-node-linux-x86_64.tar.gz
+niahcia-miner-linux-x86_64.tar.gz
+niahcia-compute-linux-x86_64.tar.gz
+niahcia-full-linux-x86_64.tar.gz
+SHA256SUMS
+```
 
-## Repositories
+### Which download?
+
+| Goal | Download |
+|---|---|
+| Run a node | `niahcia-node-...` |
+| CPU mine | `niahcia-miner-...` |
+| Run AI compute | `niahcia-compute-...` |
+| Run the complete operator stack | `niahcia-full-...` |
+
+> **Pre-alpha:** the first packaged release has not been published yet. Once releases begin, the link above remains the permanent place to get the current NIAHCIA software.
+
+## Source repositories
+
+Developers can work with the individual components here:
 
 - [Core / Node](https://github.com/niahcia/niahcia)
 - [Protocol](https://github.com/niahcia/niahcia-protocol)
@@ -30,12 +43,7 @@ The releases page is the operator-facing entry point for downloading the current
 - [Compute Worker](https://github.com/niahcia/niahcia-compute)
 - [Explorer](https://github.com/niahcia/niahcia-explorer)
 - [Web](https://github.com/niahcia/niahcia-web)
-- [Project Site](https://github.com/niahcia/niahcia.github.io)
 
 ## Project status
 
 Early development. No production network exists yet.
-
----
-
-**Intelligence without a center.**
